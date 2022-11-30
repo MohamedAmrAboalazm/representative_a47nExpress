@@ -1,0 +1,2 @@
+bool? isArabic;
+var lang;

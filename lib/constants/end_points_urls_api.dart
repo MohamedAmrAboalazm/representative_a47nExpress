@@ -1,0 +1,36 @@
+const REGISTER = "api/mobile/register";
+const REGISTER_COMPANY = "api/mobile/register-company";
+const LOGIN = "api/mobile/loginRepresentative";
+const CHANGE_PASSWORD = "api/mobile/change-Password?";
+const PROFILE = "api/mobile/user-profile";
+const UPDATE_PROFILE_COMPANY = "api/mobile/update-company-profile/";
+const UPDATE_PROFILE_CLIENT = "api/mobile/update-profile/";
+const GET_CITIES_DATA = "api/mobile/province-area-shipment";
+const GET_COST_CITIES_DATA = "api/mobile/area_shipment";
+const GET_CITIES_DATA_OUT = "api/mobile/area_shipment";
+const GET_SERVICE_TYPES_DATA = "api/mobile/service-type-shipment";
+const GET_ADDITIONAL_SERVICE_TYPES_DATA = "api/mobile/additional-service";
+const CREATE_SHIPMENT = "api/mobile/create-shipment";
+const EDIT_SHIPMENT = "api/mobile/update-shipment/";
+const SHOW_SHIPMENT = "api/mobile/show-shipment/";
+const CHECK_PHONE_FORGET_PASSWORD = "api/mobile/check-phone";
+const FORGET_PASSWORD = "api/mobile/forgotpassword";
+const ALL_SHIPMENTS = "api/mobile/all-shipment";
+const ALL_SHIPMENTS_RETURN = "api/mobile/shipmentreturn";
+const STORAGE_SYSTEMS = "api/mobile/all-storage-system";
+const OFFERS = "api/mobile/all-offer";
+const OFFERS_ENROLLED = "api/mobile/getOfferCompany";
+const ENROLL_OFFERS = "api/mobile/pivot-create-offer";
+const ENROLL_STORAGE = "api/mobile/pivot-create-storage-system";
+const PICK_UP = "api/mobile/pickup";
+const ALL_TRANSPORT = "api/mobile/all-transport-type";
+const SEND_FILE = "api/mobile/import-shipment/";
+const STORAGE_SYSTEMS_ENROLLED = "api/mobile/getStoragesystem";
+const GET_COMPANY_LIMITED_WIEGHT = "api/mobile/company_area_Price";
+const GET_GENERAL_LIMITED_WIEGHT = "api/mobile/weight";
+const COD_AND_BALANCE = "api/mobile/all-company-account";
+const GET_CHART_DATA = "api/mobile/shipmentStatusChart";
+const String TWILIO_SMS_API = 'https://api.twilio.com/2010-04-01';
+
+
+const shipmentRepresentative = "api/mobile/shipmentRepresentative";
